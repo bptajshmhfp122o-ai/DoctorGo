@@ -1,0 +1,13 @@
+[
+  {
+    "paymentToken": "PAY-SANDBOX-001",
+    "bookingId": "BK-2025-001",
+    "amount": 85.00,
+    "currency": "USD",
+    "paidAt": "2025-11-28T14:35:00Z",
+    "status": "completed",
+    "eReceiptUrl": "/receipts/PAY-SANDBOX-001.json",
+    "cardLast4": "4242",
+    "cardBrand": "Visa"
+  }
+]

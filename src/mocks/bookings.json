@@ -1,0 +1,22 @@
+[
+  {
+    "bookingId": "BK-2025-001",
+    "providerId": "prov-001",
+    "userId": "user-001",
+    "slotId": "slot-001",
+    "timestamp": "2025-11-28T14:32:00Z",
+    "status": "confirmed",
+    "paymentStatus": "paid",
+    "paymentToken": "PAY-SANDBOX-001"
+  },
+  {
+    "bookingId": "BK-2025-002",
+    "providerId": "prov-003",
+    "userId": "user-001",
+    "slotId": "slot-009",
+    "timestamp": "2025-11-27T10:15:00Z",
+    "status": "pending",
+    "paymentStatus": "unpaid",
+    "paymentToken": null
+  }
+]

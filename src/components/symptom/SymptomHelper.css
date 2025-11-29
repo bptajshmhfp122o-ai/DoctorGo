@@ -1,0 +1,192 @@
+/**
+ * SymptomHelper Component Styles
+ */
+
+.symptom-helper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.symptom-helper__header {
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.symptom-helper__icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto var(--spacing-md);
+  background-color: var(--color-primary-bg);
+  color: var(--color-primary);
+  border-radius: var(--radius-xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.symptom-helper__icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.symptom-helper__title {
+  font-size: var(--font-size-3xl);
+  margin: 0 0 var(--spacing-md);
+}
+
+.symptom-helper__description {
+  color: var(--color-neutral-600);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: var(--line-height-relaxed);
+}
+
+.symptom-helper__form {
+  background-color: var(--color-white);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-xl);
+  box-shadow: var(--shadow-md);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.symptom-helper__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-md);
+}
+
+.symptom-helper__loading {
+  padding: var(--spacing-3xl);
+}
+
+.symptom-helper__results {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.symptom-helper__results-title {
+  font-size: var(--font-size-xl);
+  margin: 0 0 var(--spacing-xs);
+}
+
+.symptom-helper__results-subtitle {
+  color: var(--color-neutral-600);
+  margin: 0 0 var(--spacing-lg);
+}
+
+.symptom-helper__recommendations {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.symptom-helper__recommendation {
+  transition: box-shadow var(--transition-fast);
+}
+
+.symptom-helper__recommendation:hover {
+  box-shadow: var(--shadow-lg);
+}
+
+.symptom-helper__recommendation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.symptom-helper__confidence {
+  font-size: var(--font-size-sm);
+  color: var(--color-neutral-500);
+}
+
+.symptom-helper__recommendation-content {
+  margin-bottom: var(--spacing-md);
+}
+
+.symptom-helper__recommendation-name {
+  font-size: var(--font-size-lg);
+  margin: 0 0 var(--spacing-xs);
+}
+
+.symptom-helper__recommendation-specialty {
+  color: var(--color-neutral-600);
+  margin: 0 0 var(--spacing-sm);
+}
+
+.symptom-helper__recommendation-rationale {
+  background-color: var(--color-neutral-50);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+}
+
+.symptom-helper__recommendation-rationale strong {
+  display: block;
+  font-size: var(--font-size-sm);
+  color: var(--color-neutral-700);
+  margin-bottom: var(--spacing-xs);
+}
+
+.symptom-helper__recommendation-rationale p {
+  margin: 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-neutral-600);
+}
+
+.symptom-helper__recommendation-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  color: var(--color-primary);
+  font-weight: var(--font-weight-medium);
+}
+
+.symptom-helper__recommendation-link svg {
+  width: 16px;
+  height: 16px;
+}
+
+.symptom-helper__recommendation-link:hover {
+  color: var(--color-primary-dark);
+}
+
+.symptom-helper__no-results {
+  text-align: center;
+  padding: var(--spacing-3xl);
+  background-color: var(--color-white);
+  border-radius: var(--radius-xl);
+}
+
+.symptom-helper__no-results p {
+  color: var(--color-neutral-600);
+  margin-bottom: var(--spacing-lg);
+}
+
+.symptom-helper__disclaimer {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+  background-color: var(--color-neutral-100);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+}
+
+.symptom-helper__disclaimer svg {
+  width: 24px;
+  height: 24px;
+  color: var(--color-neutral-500);
+  flex-shrink: 0;
+}
+
+.symptom-helper__disclaimer p {
+  margin: 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-neutral-600);
+  line-height: var(--line-height-relaxed);
+}
+
+.symptom-helper__disclaimer strong {
+  color: var(--color-neutral-700);
+}

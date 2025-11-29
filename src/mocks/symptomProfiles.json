@@ -1,0 +1,35 @@
+{
+  "symptomKeywords": {
+    "headache": ["General Practice", "Neurology"],
+    "chest pain": ["Cardiology", "General Practice"],
+    "heart": ["Cardiology"],
+    "skin": ["Dermatology"],
+    "rash": ["Dermatology", "General Practice"],
+    "acne": ["Dermatology"],
+    "joint pain": ["Orthopedics", "General Practice"],
+    "knee": ["Orthopedics"],
+    "back pain": ["Orthopedics", "General Practice"],
+    "child": ["Pediatrics"],
+    "kid": ["Pediatrics"],
+    "baby": ["Pediatrics"],
+    "fever": ["General Practice", "Pediatrics"],
+    "cold": ["General Practice", "Pediatrics"],
+    "flu": ["General Practice"],
+    "anxiety": ["Psychiatry", "General Practice"],
+    "depression": ["Psychiatry"],
+    "stress": ["Psychiatry", "General Practice"],
+    "sleep": ["Psychiatry", "General Practice"],
+    "fatigue": ["General Practice", "Cardiology"],
+    "breathing": ["Cardiology", "General Practice"],
+    "stomach": ["General Practice"],
+    "allergy": ["General Practice", "Dermatology"]
+  },
+  "explanations": {
+    "General Practice": "General practitioners can diagnose and treat a wide range of common conditions",
+    "Cardiology": "Cardiologists specialize in heart and cardiovascular system conditions",
+    "Dermatology": "Dermatologists are experts in skin, hair, and nail conditions",
+    "Orthopedics": "Orthopedic specialists focus on bones, joints, and musculoskeletal issues",
+    "Pediatrics": "Pediatricians provide specialized care for infants, children, and adolescents",
+    "Psychiatry": "Psychiatrists specialize in mental health diagnosis and treatment"
+  }
+}
