@@ -1,0 +1,15 @@
+[
+  {
+    "id": "user-001",
+    "email": "demo@doctorgo.com",
+    "password": "demo123",
+    "firstName": "Demo",
+    "lastName": "User",
+    "phone": "(555) 999-0001",
+    "dateOfBirth": "1990-05-15",
+    "address": "100 Main Street, New York, NY 10001",
+    "insuranceProvider": "Blue Cross",
+    "insuranceId": "BC-123456789",
+    "createdAt": "2025-01-15T10:00:00Z"
+  }
+]

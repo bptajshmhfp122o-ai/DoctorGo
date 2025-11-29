@@ -1,0 +1,185 @@
+[
+  {
+    "id": "prov-001",
+    "name": "Dr. Sarah Chen",
+    "specialty": "General Practice",
+    "rating": 4.8,
+    "reviewCount": 342,
+    "estimatedCost": 85,
+    "queueLength": 3,
+    "coordinates": { "lat": 40.7128, "lng": -74.006 },
+    "address": "123 Medical Center Dr, New York, NY 10001",
+    "phone": "(555) 123-4567",
+    "availabilitySlots": [
+      { "id": "slot-001", "date": "2025-11-30", "time": "09:00", "available": true },
+      { "id": "slot-002", "date": "2025-11-30", "time": "10:00", "available": true },
+      { "id": "slot-003", "date": "2025-11-30", "time": "11:00", "available": false },
+      { "id": "slot-004", "date": "2025-11-30", "time": "14:00", "available": true },
+      { "id": "slot-005", "date": "2025-12-01", "time": "09:00", "available": true }
+    ],
+    "tags": ["accepting-new-patients", "telehealth", "same-day"],
+    "services": ["Annual Checkups", "Vaccinations", "Minor Illness Treatment", "Chronic Disease Management"],
+    "bio": "Board-certified family physician with over 15 years of experience in primary care. Committed to providing personalized, patient-centered healthcare.",
+    "education": "MD from Johns Hopkins University",
+    "languages": ["English", "Mandarin"],
+    "insurance": ["Blue Cross", "Aetna", "United Healthcare", "Medicare"],
+    "policies": {
+      "cancellation": "24 hours notice required for cancellation",
+      "lateArrival": "Patients arriving more than 15 minutes late may need to reschedule"
+    },
+    "reviews": [
+      { "id": "rev-001", "author": "John D.", "rating": 5, "text": "Dr. Chen is thorough and takes time to explain everything.", "date": "2025-10-15" },
+      { "id": "rev-002", "author": "Maria S.", "rating": 5, "text": "Very professional and caring. Highly recommend!", "date": "2025-09-28" }
+    ]
+  },
+  {
+    "id": "prov-002",
+    "name": "Dr. Michael Roberts",
+    "specialty": "Cardiology",
+    "rating": 4.9,
+    "reviewCount": 218,
+    "estimatedCost": 150,
+    "queueLength": 5,
+    "coordinates": { "lat": 40.7589, "lng": -73.9851 },
+    "address": "456 Heart Health Blvd, New York, NY 10019",
+    "phone": "(555) 234-5678",
+    "availabilitySlots": [
+      { "id": "slot-006", "date": "2025-12-02", "time": "08:00", "available": true },
+      { "id": "slot-007", "date": "2025-12-02", "time": "09:30", "available": true },
+      { "id": "slot-008", "date": "2025-12-03", "time": "14:00", "available": true }
+    ],
+    "tags": ["specialist", "telehealth"],
+    "services": ["Heart Disease Diagnosis", "ECG", "Stress Testing", "Cardiac Rehabilitation"],
+    "bio": "Leading cardiologist specializing in preventive cardiology and heart disease management. Pioneer in non-invasive cardiac diagnostics.",
+    "education": "MD from Harvard Medical School, Fellowship at Mayo Clinic",
+    "languages": ["English", "Spanish"],
+    "insurance": ["Blue Cross", "Cigna", "United Healthcare"],
+    "policies": {
+      "cancellation": "48 hours notice required for specialist appointments",
+      "referral": "Referral from primary care physician recommended"
+    },
+    "reviews": [
+      { "id": "rev-003", "author": "Robert K.", "rating": 5, "text": "Dr. Roberts saved my life. Excellent cardiac care.", "date": "2025-11-01" }
+    ]
+  },
+  {
+    "id": "prov-003",
+    "name": "Dr. Emily Watson",
+    "specialty": "Dermatology",
+    "rating": 4.7,
+    "reviewCount": 189,
+    "estimatedCost": 120,
+    "queueLength": 2,
+    "coordinates": { "lat": 40.7484, "lng": -73.9857 },
+    "address": "789 Skin Care Ave, New York, NY 10016",
+    "phone": "(555) 345-6789",
+    "availabilitySlots": [
+      { "id": "slot-009", "date": "2025-11-30", "time": "10:00", "available": true },
+      { "id": "slot-010", "date": "2025-11-30", "time": "15:00", "available": true },
+      { "id": "slot-011", "date": "2025-12-01", "time": "11:00", "available": true }
+    ],
+    "tags": ["accepting-new-patients", "cosmetic", "medical"],
+    "services": ["Skin Cancer Screening", "Acne Treatment", "Eczema Care", "Cosmetic Dermatology"],
+    "bio": "Double board-certified dermatologist with expertise in both medical and cosmetic dermatology. Focused on skin health and patient education.",
+    "education": "MD from Stanford University",
+    "languages": ["English", "French"],
+    "insurance": ["Blue Cross", "Aetna", "Oscar"],
+    "policies": {
+      "cancellation": "24 hours notice required",
+      "cosmetic": "Cosmetic procedures require consultation first"
+    },
+    "reviews": [
+      { "id": "rev-004", "author": "Lisa M.", "rating": 5, "text": "Finally found a dermatologist who listens!", "date": "2025-10-20" }
+    ]
+  },
+  {
+    "id": "prov-004",
+    "name": "Dr. James Park",
+    "specialty": "Orthopedics",
+    "rating": 4.6,
+    "reviewCount": 156,
+    "estimatedCost": 175,
+    "queueLength": 4,
+    "coordinates": { "lat": 40.7614, "lng": -73.9776 },
+    "address": "321 Bone & Joint Center, New York, NY 10022",
+    "phone": "(555) 456-7890",
+    "availabilitySlots": [
+      { "id": "slot-012", "date": "2025-12-01", "time": "08:30", "available": true },
+      { "id": "slot-013", "date": "2025-12-01", "time": "13:00", "available": true },
+      { "id": "slot-014", "date": "2025-12-02", "time": "10:00", "available": true }
+    ],
+    "tags": ["sports-medicine", "surgery"],
+    "services": ["Joint Replacement", "Sports Injuries", "Fracture Care", "Arthroscopy"],
+    "bio": "Orthopedic surgeon with specialized training in sports medicine. Team physician for multiple professional sports teams.",
+    "education": "MD from UCLA, Fellowship at Hospital for Special Surgery",
+    "languages": ["English", "Korean"],
+    "insurance": ["Blue Cross", "Aetna", "United Healthcare", "Workers Comp"],
+    "policies": {
+      "cancellation": "48 hours notice for surgical consultations",
+      "imaging": "Please bring any recent X-rays or MRI results"
+    },
+    "reviews": [
+      { "id": "rev-005", "author": "Tom H.", "rating": 5, "text": "Got me back on the field in record time!", "date": "2025-09-15" }
+    ]
+  },
+  {
+    "id": "prov-005",
+    "name": "Dr. Amanda Foster",
+    "specialty": "Pediatrics",
+    "rating": 4.9,
+    "reviewCount": 412,
+    "estimatedCost": 95,
+    "queueLength": 6,
+    "coordinates": { "lat": 40.7282, "lng": -73.7949 },
+    "address": "555 Children's Health Way, New York, NY 10003",
+    "phone": "(555) 567-8901",
+    "availabilitySlots": [
+      { "id": "slot-015", "date": "2025-11-30", "time": "09:00", "available": true },
+      { "id": "slot-016", "date": "2025-11-30", "time": "10:30", "available": true },
+      { "id": "slot-017", "date": "2025-11-30", "time": "14:00", "available": true },
+      { "id": "slot-018", "date": "2025-12-01", "time": "09:00", "available": true }
+    ],
+    "tags": ["accepting-new-patients", "same-day", "infant-care"],
+    "services": ["Well Child Visits", "Vaccinations", "Developmental Screening", "Sick Visits"],
+    "bio": "Compassionate pediatrician dedicated to providing comprehensive care for children from birth through adolescence.",
+    "education": "MD from Columbia University, Residency at Children's Hospital of Philadelphia",
+    "languages": ["English", "Spanish", "Portuguese"],
+    "insurance": ["Blue Cross", "Aetna", "United Healthcare", "Medicaid", "CHIP"],
+    "policies": {
+      "cancellation": "Same-day cancellation available for sick visits",
+      "vaccines": "Following CDC recommended immunization schedule"
+    },
+    "reviews": [
+      { "id": "rev-006", "author": "Jennifer W.", "rating": 5, "text": "My kids love Dr. Foster! She makes every visit comfortable.", "date": "2025-11-10" }
+    ]
+  },
+  {
+    "id": "prov-006",
+    "name": "Dr. David Kim",
+    "specialty": "Psychiatry",
+    "rating": 4.8,
+    "reviewCount": 98,
+    "estimatedCost": 200,
+    "queueLength": 1,
+    "coordinates": { "lat": 40.7549, "lng": -73.984 },
+    "address": "888 Mental Wellness Plaza, New York, NY 10018",
+    "phone": "(555) 678-9012",
+    "availabilitySlots": [
+      { "id": "slot-019", "date": "2025-12-02", "time": "11:00", "available": true },
+      { "id": "slot-020", "date": "2025-12-03", "time": "15:00", "available": true }
+    ],
+    "tags": ["telehealth", "anxiety", "depression"],
+    "services": ["Medication Management", "Psychotherapy", "Anxiety Treatment", "Depression Care"],
+    "bio": "Board-certified psychiatrist offering compassionate mental health care. Specializes in anxiety disorders and mood disorders.",
+    "education": "MD from Yale University, Residency at McLean Hospital",
+    "languages": ["English", "Korean"],
+    "insurance": ["Blue Cross", "Aetna", "Out-of-network"],
+    "policies": {
+      "cancellation": "48 hours notice required",
+      "telehealth": "Video visits available for established patients"
+    },
+    "reviews": [
+      { "id": "rev-007", "author": "Anonymous", "rating": 5, "text": "Dr. Kim helped me through a very difficult time.", "date": "2025-10-05" }
+    ]
+  }
+]

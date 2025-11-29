@@ -1,0 +1,104 @@
+/**
+ * MyAppointmentsPage Styles
+ */
+
+.appointments-page {
+  min-height: calc(100vh - 64px - 200px);
+  background-color: var(--color-neutral-50);
+  padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.appointments-page__container {
+  max-width: var(--container-lg);
+  margin: 0 auto;
+}
+
+.appointments-page__header {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.appointments-page__title {
+  font-size: var(--font-size-3xl);
+  margin: 0 0 var(--spacing-sm);
+}
+
+.appointments-page__subtitle {
+  color: var(--color-neutral-600);
+  margin: 0;
+}
+
+.appointments-page__loading {
+  padding: var(--spacing-3xl);
+}
+
+.appointments-page__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.appointments-page__card {
+  transition: box-shadow var(--transition-fast);
+}
+
+.appointments-page__card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.appointments-page__card-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-md);
+  border-bottom: 1px solid var(--color-neutral-100);
+}
+
+.appointments-page__booking-id {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.appointments-page__booking-id code {
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-sm);
+  color: var(--color-neutral-900);
+}
+
+.appointments-page__badges {
+  display: flex;
+  gap: var(--spacing-xs);
+}
+
+.appointments-page__card-body {
+  display: grid;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.appointments-page__detail {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.appointments-page__label {
+  font-size: var(--font-size-xs);
+  color: var(--color-neutral-500);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.appointments-page__detail code {
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-xs);
+  color: var(--color-neutral-600);
+}
+
+.appointments-page__card-actions {
+  display: flex;
+  gap: var(--spacing-sm);
+}
