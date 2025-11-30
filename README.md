@@ -1,7 +1,15 @@
 # Welcome to DoctorGo project
 
 ## Project info
-
+practical user-first app that connects patients to
+nearby doctors and clinics, allows users to join queues in
+real-time or book appointments, supports secure online
+payment, and uses a lightweight AI recommender to
+suggest the best provider for a particular situation. The goal
+is to solve the real problems people face today: long waits,
+unclear costs, inefficient queue management and to raise
+the efficiency of management of clinics and medical
+centers.
 **Use your preferred IDE**
 
 If you want to work locally using your own IDE, you can clone this repo and push changes.
