@@ -10,6 +10,7 @@ is to solve the real problems people face today: long waits,
 unclear costs, inefficient queue management and to raise
 the efficiency of management of clinics and medical
 centers.
+
 **Use your preferred IDE**
 
 If you want to work locally using your own IDE, you can clone this repo and push changes.
